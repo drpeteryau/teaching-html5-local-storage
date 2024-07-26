@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Task List</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  #task-form {
+    margin-bottom: 20px;
+  }
+  #task-list {
+    list-style: none;
+    padding: 0;
+  }
+  .task {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  .task button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<h1>Employee Task List</h1>
+<form id="task-form">
+  <input type="text" id="task-input" placeholder="Add a new task" required>
+  <button type="submit">Add Task</button>
+</form>
+<ul id="task-list"></ul>
+
+<script>
+// JavaScript code will go here
+</script>
+</body>
+</html>
